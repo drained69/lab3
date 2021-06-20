@@ -1,0 +1,79 @@
+#chess{
+    width:420px;   
+    height:420px;
+    padding: 20px 20px 20px 20px;
+    top: 32px;
+    left: 32px;
+    position: absolute;
+   }
+   #chess div{
+    width:50px;
+    height:50px;   
+    float: left;
+   }
+.block{
+      background: silver;
+      width: 440px;
+      height: 440px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      border: 15px solid rgb(85, 35, 35);
+      border-bottom:20px solid rgb(85, 35, 35);
+      border-right: 20px solid rgb(85, 35, 35);
+      border-radius: 2%;
+      border-bottom-right-radius: 7%;
+   }
+   .right_nums{
+      margin-right: 6px;
+      font-size: 20px;
+      float: right;
+      transform: rotate(180deg);
+   }
+   .right_nums p{
+      padding-bottom: 5px;
+      padding-top: 2px;
+   }
+   .up_letters{
+      text-align: center;
+      margin-left: 30px;
+   }
+   .up_letters span{
+      margin-right: 35px;
+   }
+   .low_letters{
+      text-align: center;
+      margin-top: 400px;
+      margin-right: 20px;
+      transform: rotate(180deg);
+   }
+   .low_letters span{
+      margin-right: 35px;   
+   }
+   .left_nums{
+      margin-top: 20px;
+      margin-left: 2px;
+      font-size: 20px;
+      float: left;
+   }
+   .left_nums p{
+      padding-bottom: 7px;
+   }
+   #chess div{
+      background: #fff;
+      position: relative;
+   }
+#chess div{background: #FFFFFF }
+#chess div:nth-child(1), #chess div:nth-child(3), #chess div:nth-child(5), #chess div:nth-child(7),
+#chess div:nth-child(10), #chess div:nth-child(12), #chess div:nth-child(14), #chess div:nth-child(16),
+#chess div:nth-child(17), #chess div:nth-child(19), #chess div:nth-child(21), #chess div:nth-child(23),
+#chess div:nth-child(26), #chess div:nth-child(28), #chess div:nth-child(30), #chess div:nth-child(32),
+#chess div:nth-child(33), #chess div:nth-child(35), #chess div:nth-child(37), #chess div:nth-child(39),
+#chess div:nth-child(42), #chess div:nth-child(44), #chess div:nth-child(46), #chess div:nth-child(48),
+#chess div:nth-child(49), #chess div:nth-child(51), #chess div:nth-child(53), #chess div:nth-child(55),
+#chess div:nth-child(58), #chess div:nth-child(60), #chess div:nth-child(62), #chess div:nth-child(64)
+{
+   background-color:#361506 ;
+} 
+
+
